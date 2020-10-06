@@ -72,9 +72,7 @@ class Owner
    end
    
    def list_pets
-     dog_count = @dogs.size
-     cat_count = @cats.size
-     
+     "I have #{owener.dogs.count}dog(s), and #{owner.cats.count} cat(s)."
    end
   
   

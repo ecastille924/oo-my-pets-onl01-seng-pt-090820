@@ -72,7 +72,9 @@ class Owner
    end
    
    def list_pets
-     dog_count = 
+     dog_count = @dogs.size
+     cat_count = @cats.size
+     
    end
   
   
